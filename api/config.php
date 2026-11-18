@@ -2,7 +2,7 @@
 // คัดลอกไฟล์นี้เป็น config.php แล้วใส่คีย์จริง (ขอคีย์ฟรีที่ https://aistudio.google.com/apikey)
 // หรือจะตั้งเป็น environment variable GEMINI_API_KEY แทนก็ได้ (มีลำดับก่อนค่าในไฟล์นี้)
 return [
-    'api_key'         => 'AQ.Ab8RN6L3u2V3ZkFge4ca6TAjmOxNY5RGkh1di0MOxMVHy1M0Vw',
+    'api_key'         => 'AQ.Ab8RN6KqzAvxV8Yafxr6Zkv_1Uty2pyIeQi3NGKUya62wYdewA',
     'model'           => 'gemini-3.5-flash-lite',
     'fallback_models' => ['gemini-3.1-flash-lite', 'gemini-3.5-flash'],
     'thinking_level'  => 'low',
