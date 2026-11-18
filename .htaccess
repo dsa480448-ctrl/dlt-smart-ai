@@ -1,0 +1,5 @@
+# ห้ามเปิดไฟล์ตั้งค่า/พรอมต์ผ่านเว็บโดยตรง (Apache 2.4)
+<FilesMatch "^(config(\.sample)?\.php|system_prompt\.txt)$">
+    Require all denied
+</FilesMatch>
+# nginx: location ~ ^/api/(config.*\.php|system_prompt\.txt)$ { deny all; }

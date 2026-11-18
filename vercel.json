@@ -1,13 +1,10 @@
 {
   "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.9.0"
+    "api/chat.js": {
+      "includeFiles": "api/system_prompt.txt"
     }
   },
-  "routes": [
-    {
-      "src": "/api/chat.php",
-      "dest": "/api/chat.php"
-    }
+  "rewrites": [
+    { "source": "/api/chat.php", "destination": "/api/chat" }
   ]
 }
